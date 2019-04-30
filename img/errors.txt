@@ -1,0 +1,2 @@
+[2019-4-26 17:33:25] layer "logo.svg": Fonts may render inconsistently and text wrapping is unsupported which can result in clipped text. Convert text to a shape to maintain fidelity.
+[2019-4-26 17:52:15] layer "blog.jpg": Duplicate path: blog.jpg
