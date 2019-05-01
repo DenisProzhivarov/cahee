@@ -381,9 +381,10 @@ header {
 .section1 {
   height: 100vh;
   background-size: cover;
+  background-position: 50% 50%;
+  /* Положение фона */
   background-repeat: no-repeat;
-  background-position: 100% 100%;
-  background: url(../img/s1.png); }
+  background-image: url(../img/s1.png); }
   .section1__div {
     padding-top: 30vh;
     width: 35%;
@@ -516,51 +517,36 @@ header {
 .section4 {
   background-color: #ffe92f; }
   .section4__item {
-    font-size: 0;
     color: #fff;
-    height: 520px;
     display: -webkit-box;
     display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    padding-bottom: 30px; }
+    display: flex; }
     .section4__item--down {
-      height: 365px;
-      font-size: 0;
       padding-bottom: 0;
       margin-bottom: 50px; }
     .section4__item--right {
-      width: 700px;
+      max-width: 700px;
       margin: 0 auto;
       text-align: center; }
   .section4__big {
     width: 70%;
-    height: 100%;
-    padding-right: 30px; }
+    padding-right: 30px;
+    padding-bottom: 30px; }
   .section4__md {
     width: 50%;
-    height: 100%;
     padding-left: 15px; }
     .section4__md:first-child {
       padding-left: 0;
       padding-right: 15px; }
   .section4__sm {
-    width: 30%;
-    height: 100%;
-    height: 520px;
-    font-size: 0;
-    display: inline-block; }
+    width: 30%; }
     .section4__sm--50 {
-      width: 100%;
+      padding-bottom: 30px;
       font-size: 0;
-      height: 260px;
-      padding-bottom: 30px; }
+      height: 50%; }
   .section4__img {
     width: 100%;
-    height: auto;
     height: 100%;
-    background-position: 100% 100%;
     -webkit-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.5);
     box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.5);
     -webkit-transition: all .6s ease-in-out;

@@ -1,0 +1,1 @@
+[2019-5-1 13:21:57] layer "logo.svg": Fonts may render inconsistently and text wrapping is unsupported which can result in clipped text. Convert text to a shape to maintain fidelity.
